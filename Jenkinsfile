@@ -1,10 +1,11 @@
 node {
     stage("init"){
-        git (
-            branch: 'master', 
-            credentialsId: 'bitbucket-jenkins', 
-            url: 'https://Devojeda81@bitbucket.org/Devojeda81/shared-library.git'
-        )
+        echo "HOLA!"
+        // git (
+        //     branch: 'master', 
+        //     credentialsId: 'bitbucket-jenkins', 
+        //     url: 'https://Devojeda81@bitbucket.org/Devojeda81/shared-library.git'
+        // )
     }
     stage("clean")
     {
